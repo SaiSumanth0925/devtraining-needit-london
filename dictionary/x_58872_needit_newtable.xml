@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NewTable" max_length="40" name="x_58872_needit_newtable" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cader" max_length="40" name="cader" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Lt." sequence="0" value="Lt."/>
+                <element inactive_on_update="false" label="General" sequence="1" value="General"/>
+                <element inactive_on_update="false" label="Soldier" sequence="2" value="Soldier"/>
+            </choice>
+        </element>
+        <element label="dept" max_length="40" name="dept" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="subject" max_length="40" name="subject" type="string"/>
+    </element>
+</database>
